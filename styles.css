@@ -139,9 +139,15 @@ body {
   .work {
     position: relative;
     float: left;
-    width: 274px;
+    width: 260px;
     margin: 20px 0 25px;
     overflow: auto;
+    margin-right: 40px;
+  }
+
+  .fix {
+    position: relative;
+    right: 150px;
   }
   
   .work:nth-child(even) {
